@@ -1,0 +1,14 @@
+# Reverse challenge
+# Task: find out what the code should do based on input and output examples
+# as fast as possible
+# example 1: input: string output: 6 gnirts
+
+import sys
+import math
+
+_input = input()
+
+num = len(_input)
+rev = _input[::-1]
+
+print(num, rev)
